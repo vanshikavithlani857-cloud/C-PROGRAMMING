@@ -9,13 +9,14 @@ int main()
     {
         a=g*0.1;
         d=g*0.03;
-
     }
-    if(g>5000)
+
+    else if(g>5000)
     {
         a=g*0.07;
         d=g*0.02;
     }
+    
     net=g+a-d;
     printf("The net salary is:%f",net);
     return 0;
